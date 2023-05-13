@@ -16,7 +16,7 @@ public class CheckUser {
         firstUser.setAge(18);
         System.out.println(firstUser.userName + " age: " + firstUser.getAge());
 
-        firstUser.setPassword("1234579A");
+        firstUser.setPassword("bb222222");
         System.out.println(firstUser.userName + " password: " + firstUser.getPassword());
 
         firstUser.email = "uxa@ukr.net";
