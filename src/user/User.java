@@ -73,5 +73,9 @@ public class User {
     static public void printTotalAmountOfSpentMoney(){
         System.out.println("All users spent " + amountSpentMoney);
     }
- }
+    public double addDiscount(int percent){
+        double percentValue = percent / 100.0;
+        return this.purchasePrice * percentValue;
+    }
+}
 
